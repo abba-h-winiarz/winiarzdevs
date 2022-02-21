@@ -1,0 +1,25 @@
+{
+    "id": 3,
+    "name": "Wild Rice Steak Skillet",
+    "ingredients": [
+      "5 slices boneless club steak",
+        "1 onion, sliced",
+        "1 red bell pepper, diced",
+        "1/4 cup red wine",
+        "2/3 cups wild rice",
+        "17 ounces Chicken Broth",
+        "2 bay leaves",
+        "1 teaspoon salt",
+        "1/2 teaspoon garlic",
+        "1/8 teaspoon black pepper"
+    ],
+    "directions": [
+      "Preheat skillet over high heat",
+      "Grease lightly with oil and sear the meat 3-5 minutes on each side",
+      "Remove meat from the pan and set aside",
+      "Add onions and peppers, sauté till limp",
+      "Deglaze pan with red wine (Add wine to the pan and scrape up browned bits)",
+      "Add rest of ingredients, bring to boil",
+      "Return meat to pan. Cover and simmer on medium 45 minutes or till most of liquid evaporates"
+    ]
+  }

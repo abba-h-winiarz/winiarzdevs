@@ -1,0 +1,25 @@
+
+{
+  "id": 1,
+  "name": "Basic Cheese Cake",
+  "ingredients": [
+    "½ box graham crackers",
+      "1 stick margarine",
+      "3 pkg cream cheese (not whipped)",
+      "½ cup milk",
+      "2 pkg vanilla sugar",
+      "1 cup sugar",
+      "4 eggs",
+      "2 Tbl corn starch"
+  ],
+  "directions": [
+    "Blend graham crackers into crumbs and mix with 1 stick margarine",
+    "Press into 9/13 or 1 10 in round pan",
+    "Set aside",
+    "In separate bowl mix cream cheese with milk and slowly add the sugar and vanilla sugar",
+    "Add the eggs one at a time and then add the corn startch",
+    "Pour into the crust, Place the cake into a hot water bath",
+    "Bake 350  for 1 hr. leave in closed oven for another hour",
+    "Refrigerate and enjoy"
+  ]
+}
