@@ -1,0 +1,21 @@
+<table>
+    <thead>
+      <tr>
+        <th>Recipes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#recipes}}
+      <tr>
+        <td>
+            <a href='/recipe/{{id}}'>{{name}}</a>
+        </td>
+      </tr>
+      {{/recipes}}
+      {{#noRecipes}}
+        <tr>
+            <td colspan="5">No Recipes Available. Check back Again.</td>
+        </tr>
+      {{/noRecipes}}
+    </tbody>
+</table>

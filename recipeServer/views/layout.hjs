@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ recipeTitle }}</title>
+  </head>
+
+  <body>
+    <h1>{{ recipeTitle }}</h1>
+    <h2>{{ title }}</h2>
+    {{> content}}
+  </body>
+
+</html>
