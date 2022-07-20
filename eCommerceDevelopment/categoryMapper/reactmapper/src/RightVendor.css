@@ -1,0 +1,59 @@
+#rightCategories {
+  flex: 40;
+  height: 800px;
+}
+
+#rightCategoriesInnerDiv {
+  text-align: left;
+  padding-top: .5em;
+  width: 100%;
+  height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display:flex;
+  flex-flow: column wrap;
+}
+
+.lowestNode {
+  background-color: rgb(228, 127, 141);
+  height: 4em;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.clickable:active {
+  color: rgb(216, 6, 33);
+}
+
+.boldRightCat {
+  font-weight: bold;
+  font-size:medium;
+}
+
+.rightCatButton{
+  cursor: pointer;
+  background-color:  white;
+  border-radius: 10px;
+  width:350px;
+  min-height:80px;
+  margin:.25em;
+  padding: 0;
+  display: flex;
+ align-items: stretch;
+ }
+
+ .rightCatButton div{
+  width:inherit;
+  height:inherit;
+  padding: 0;
+  font-size: 1.5em;
+  
+ }
+ #currentDiv,span{
+   padding: 0;
+   font-size: 1.5em;
+ }

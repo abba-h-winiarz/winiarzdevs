@@ -1,0 +1,20 @@
+#leftCategories {
+  flex: 24;
+
+}
+
+#leftCategoriesInnerDiv {
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.boldLeftCat {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.bottomCatPart{
+  text-align: right;
+  font-weight: bold;
+  font-size: xx-large;
+}

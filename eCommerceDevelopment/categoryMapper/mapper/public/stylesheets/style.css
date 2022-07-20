@@ -1,0 +1,91 @@
+.ucButton{
+  cursor:pointer;
+  background-color:rgb(216, 6, 33);
+  color:white;
+  border-radius: 10px;
+}
+.ucButtonClicked{
+  cursor:wait;
+  background-color:white;
+  color:rgb(216, 6, 33);
+  border-radius: 10px;
+}
+.bbSelected{
+  border: 1px solid rgb(216, 6, 33);
+  border-radius: 15px;
+}
+
+.lowestAmzNode,.lowestBBNode{
+  background-color: rgb(228, 127, 141);
+ 
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.mb-3{
+  border:1px solid rgb(216, 6, 33);
+  border-radius: 15px 20px 15px 20px;
+}
+div,body {
+  text-align: center;
+}
+#amzCategoriesInnerDiv,#bbCategoriesInnerDiv{
+  text-align: left;
+}
+body{
+  display:flex;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  
+}
+ .flex-container-column div {
+  text-align: left;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container button{
+  float: left;
+}
+div{
+  padding:1em;
+  
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /*height: 2.5rem;            /* Footer height */
+  text-align: right;
+  padding-right:2em;
+  color: rgb(216, 6, 33);
+  z-index: -1;
+}
+#counterDiv{
+  position: fixed;
+  font-size: small;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  padding-left:50em;
+  padding-bottom: 2em;
+  z-index: -1;
+}
+#amzCategories{
+  flex:32;
+  
+}
+#bbCategories{
+  flex:32;
+}
+#margin{
+  flex:1;
+}
+.bold{
+  font-weight: bold;
+}

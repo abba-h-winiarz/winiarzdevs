@@ -1,0 +1,15 @@
+.ucButton {
+  cursor: pointer;
+  background-color: rgb(216, 6, 33);
+  color: white;
+  border-radius: 10px;
+  width: 75px;
+}
+
+.ucButtonClicked {
+  cursor: wait;
+  background-color: white;
+  color: rgb(216, 6, 33);
+  border-radius: 10px;
+  width: 75px;
+}

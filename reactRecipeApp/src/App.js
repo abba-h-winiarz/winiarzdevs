@@ -17,8 +17,8 @@ export default class App extends Component {
           <Header />
           <Routes>
             <Route index element={<RecipeList />} />
-            <Route path='/recipe/:id' element={<RecipeDetails />} />
-            <Route path='/recipe/addedRecipe' element={<AddedRecipeDetails />} />
+            <Route path='/:id' element={<RecipeDetails />} />
+            <Route path='/addedRecipe' element={<AddedRecipeDetails />} />
             <Route path='/addrecipe' element={<AddRecipeForm />} />
             <Route path='*' element={<Navigate to='/' replace="true" />} />
           </Routes>

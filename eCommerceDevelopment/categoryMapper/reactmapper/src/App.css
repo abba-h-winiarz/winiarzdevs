@@ -1,0 +1,63 @@
+div,body {
+  text-align: center;
+}
+
+#leftCategoriesInnerDiv{
+  text-align: center;
+}
+#rightCategoriesInnerDiv {
+  text-align: left;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-shrink: 1;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container-column div {
+  text-align: center;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container button {
+  float: left;
+}
+
+div {
+  padding: 1em;
+
+}
+#rightCategoriesInnerDiv div, #leftCategoriesInnerDiv div{
+padding: .75em;
+}
+
+
+#margin {
+  flex: 1;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+
+
+
+.mb-3 {
+  border: 1px solid rgb(216, 6, 33);
+  border-radius: 15px 20px 15px 20px;
+}

@@ -1,0 +1,28 @@
+#nav,ul,li,a {
+    background-color: rgb(216, 6, 33);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul,li {
+    display: inline;
+    padding: 1em;
+}
+a{
+    padding-top: .4em;
+    padding-bottom: .4em;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+a:hover {
+   
+    background-color: white;
+    color: rgb(216, 6, 33);
+}
+.selectedLink{
+    background-color: rgb(184, 100, 111);
+    border:1px solid white;
+}

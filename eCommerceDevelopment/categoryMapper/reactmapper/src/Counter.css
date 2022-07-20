@@ -1,0 +1,10 @@
+#counterDiv {
+  position: fixed;
+  font-size: small;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 40em;
+  padding-bottom: 2em;
+  z-index: -1;
+}
